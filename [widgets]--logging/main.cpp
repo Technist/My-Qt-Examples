@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
     QPushButton pb("Click me!");
     QTextEdit te;
     
-    QObject::connect(&pb, &QPushButton::clicked, [&te, &i] {
+    QObject::connect(&pb, &QPushButton::clicked, [&te] {
         double t = 0.0;
         for (int N = 1; N < 50; N++)
         {
