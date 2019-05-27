@@ -22,8 +22,6 @@ int main(int argc, char *argv[])
             t += 2.0;
             te.append(QString("\tN=%1\tt=%2").arg(N).arg(t));
         }
-        
-        pb.setText("Click me!");
     });
     
     vbLayout.addWidget(&te);
